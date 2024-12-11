@@ -280,10 +280,19 @@ section {
 }
 
 #experience .cards {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Set grid to 5 cards per row */
+    gap: 20px; /* Gap between the cards */
     margin-top: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 600px; /* Set a max height for the container */
+    padding-bottom: 20px; /* Optional, adds space for the scrollbar */
+    scroll-behavior: smooth; /* Smooth scroll */
 }
+
+
+
+
 
 .card7 {
 
@@ -380,6 +389,162 @@ section {
     box-shadow: 0 8px 16px #077b32;
 
 }
+
+.card10 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card10 .card-content p {
+    font-size: 15px;
+}
+
+.card10:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card11 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card11 .card-content p {
+    font-size: 15px;
+}
+
+.card11:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card12 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card12 .card-content p {
+    font-size: 15px;
+}
+
+.card12:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card13 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card13 .card-content p {
+    font-size: 15px;
+}
+
+.card13:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card14 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card14 .card-content p {
+    font-size: 15px;
+}
+
+.card14:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card15 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card15 .card-content p {
+    font-size: 15px;
+}
+
+.card15:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+.card16 {
+    border-radius: 25px;
+    width: 240px;
+    height: 300px;
+    background: #070707;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 5px;
+}
+
+.card16 .card-content p {
+    font-size: 15px;
+}
+
+.card16:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px #077b32;
+
+}
+
+
 
 .main-container {
     width: 100%;
