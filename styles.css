@@ -358,6 +358,7 @@ section {
     box-shadow: 0 8px 16px #077b32;
 
 }
+
 .card9 {
     border-radius: 25px;
     width: 240px;
@@ -377,6 +378,7 @@ section {
 .card9:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px #077b32;
+
 }
 
 .main-container {
